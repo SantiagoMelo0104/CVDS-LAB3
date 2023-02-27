@@ -39,6 +39,4 @@ public class RegistryTest {
         RegisterResult result = registry.registerVoter(person);
         Assert.assertEquals(RegisterResult.INVALID_AGE, result);
     }
-
-// TODO Complete with more test cases
 }
