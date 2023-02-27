@@ -1,10 +1,10 @@
-# CVDS_LAB03
+# CVDS_LAB3
 ## Clases de Equivalencia
 #### Integrantes:
 - Santiago Naranjo Melo
 - Gabriel Alejandro Silva Lozada
 
-## *CREAR UN PROYECTO CON MAVEN* 
+## CREAR UN PROYECTO CON MAVEN 
 
 En el directorio de trabajo ejecutar el comando necesario para crear un proyecto maven, basado en un arquetipo:
 * Grupo: edu.eci.cvds
@@ -16,9 +16,9 @@ En el directorio de trabajo ejecutar el comando necesario para crear un proyecto
     mvn archetype:generate -Dfilter=maven-archetype-quickstart 
 ```
 
-#1
-
-## *Actualizar y crear dependencias en el proyecto*
+![1](https://github.com/SantiagoMelo0104/CVDS-LAB3/blob/Master/CapturasPantalla/1.png)
+    
+## Actualizar y crear dependencias en el proyecto
 - Busque en internet el repositorio central de maven. 
 - Busque el artefacto JUnit y entre a la versión más nueva 
 - Ingrese a la pestaña de Maven y haga click en el texto de la dependencia para copiarlo al portapapeles. 
@@ -31,15 +31,18 @@ En el directorio de trabajo ejecutar el comando necesario para crear un proyecto
     <maven.compiler.source>1.8</maven.compiler.source>     
     </properties> 
 ```
-#2
+![2](https://github.com/SantiagoMelo0104/CVDS-LAB3/blob/Master/CapturasPantalla/2.png)
 
 ## COMPILAR Y EJECUTAR
 * Ejecute los comandos necesarios de Maven, para compilar el proyecto y verificar que el proyecto se creó correctamente y los cambios realizados al archivo
 pom no generan inconvenientes.
-#3
+
+![3](https://github.com/SantiagoMelo0104/CVDS-LAB3/blob/Master/CapturasPantalla/3.png)
+
 * Busque el comando requerido para ejecutar las pruebas unitarias de un proyecto desde Maven y ejecútelo sobre el proyecto. Se debe ejecutar la clase
 AppTest con resultado exitoso.
-#4
+
+![4](https://github.com/SantiagoMelo0104/CVDS-LAB3/blob/Master/CapturasPantalla/4.png)
 
 
 ## EJERCICIO “REGISTRADURÍA”
@@ -54,13 +57,11 @@ Para correr las pruebas utilice
 ```
 mvn package
 ```
-![5](https://github.com/MPulidoM/CVDS_LAB03/blob/main/Pantallazos/im5.PNG)
 Tambien puede utilizar:
 ```
 mvn test
 ```
-#4.1
-Revise cual es la diferencia.
+![4.1](https://github.com/SantiagoMelo0104/CVDS-LAB3/blob/Master/CapturasPantalla/4.1.png)
 
 ## FINALIZAR EL EJERCICIO
 * Piense en los casos de equivalencia que se pueden generar del ejercicio para la registraduría, dadas las condiciones. Deben ser al menos 5.
@@ -68,8 +69,8 @@ Revise cual es la diferencia.
 diferentes personas y validando que el resultado sea el esperado.
     -Inicialmente se crean las pruebas y estas estaran en rojo puesto que aun no se ha diseñado e implementado la logica.
     
-    #5
-    #6
+ ![5](https://github.com/SantiagoMelo0104/CVDS-LAB3/blob/Master/CapturasPantalla/5.png)
+ ![6](https://github.com/SantiagoMelo0104/CVDS-LAB3/blob/Master/CapturasPantalla/6.png)
 * Complete la implementación del método registerVoter en la clase Registry.java para retornar el resultado esperado según la entrada.
 
 ```
@@ -94,5 +95,5 @@ public RegisterResult registerVoter(Person p) {
         return registerResult;
     }
 ```
-#7
-#8
+![7](https://github.com/SantiagoMelo0104/CVDS-LAB3/blob/Master/CapturasPantalla/7.png)
+![8](https://github.com/SantiagoMelo0104/CVDS-LAB3/blob/Master/CapturasPantalla/8.png)
